@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upstox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyt-Sx-8XE">
+                                <rect key="frame" x="165" y="399" width="100" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="RIj-u3-Eje"/>
+                                    <constraint firstAttribute="height" constant="30" id="c2X-2G-Xms"/>
+                                    <constraint firstAttribute="width" constant="100" id="teN-pc-d06"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" systemColor="tableCellBlueTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pyt-Sx-8XE" secondAttribute="trailing" constant="222" id="AVx-ba-mIf"/>
+                            <constraint firstItem="pyt-Sx-8XE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="GJP-Eq-iyQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pyt-Sx-8XE" secondAttribute="trailing" constant="186" id="NGf-Yr-zOn"/>
+                            <constraint firstItem="pyt-Sx-8XE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="OhQ-D2-r4V"/>
+                            <constraint firstItem="pyt-Sx-8XE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="OuS-dH-nbm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pyt-Sx-8XE" secondAttribute="bottom" constant="397" id="Qc9-i6-eQU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pyt-Sx-8XE" secondAttribute="bottom" constant="398" id="Qka-aB-TnN"/>
+                            <constraint firstItem="pyt-Sx-8XE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="Uab-VV-mZv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pyt-Sx-8XE" secondAttribute="trailing" constant="186" id="VqR-x2-M0V"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pyt-Sx-8XE" secondAttribute="trailing" constant="205" id="WMm-D4-IA1"/>
+                            <constraint firstItem="pyt-Sx-8XE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="asj-IP-L4r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pyt-Sx-8XE" secondAttribute="bottom" constant="398" id="eBp-dc-0I0"/>
+                            <constraint firstItem="pyt-Sx-8XE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="346" id="f0F-cf-R3K"/>
+                            <constraint firstItem="pyt-Sx-8XE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="pq2-hw-q5t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pyt-Sx-8XE" secondAttribute="bottom" constant="392" id="pvK-cu-fe7"/>
+                            <constraint firstItem="pyt-Sx-8XE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="341" id="wKK-i2-8Yz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-32.824427480916029" y="101.40845070422536"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tableCellBlueTextColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
